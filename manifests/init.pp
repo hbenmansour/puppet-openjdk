@@ -8,8 +8,7 @@
 #  class { 'openjdk': }
 #
 class openjdk {
-  package{ 'openjdk':
-    name	=> 'java-1.6.0-openjdk',
+  package{ 'java-1.6.0-openjdk-devel':
     ensure	=> latest,
   }
 }
